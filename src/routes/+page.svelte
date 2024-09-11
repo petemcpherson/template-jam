@@ -99,24 +99,24 @@ import { enhance } from "$app/forms";
   </div>
 
   <!-- but wait there's more -->
-  <div class="w-1/2 mx-auto text-center pt-4 md:pt-32">
+  <div class="w-11/12 md:w-1/2 mx-auto text-center pt-24 md:pt-32">
     <h2
       class="text-2xl md:text-7xl font-black bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
     >
       BUT WAIT, THERE'S MORE!!
     </h2>
-    <p class="text-xs my-4">I've always wanted to say that...</p>
-    <div class="my-24">
-      <h2 class="font-black text-4xl">
-        I'm also including a few bonuses, just for Liz's audience.
-      </h2>
+    <p class="text-xs mt-4">I've always wanted to say that...</p>
+    <h2 class="font-black text-xl md:text-4xl mt-4">
+      I'm also including a few bonuses, just for Liz's audience.
+    </h2>
+    <div class="my-12">
       <!-- features -->
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-24">
         <div>
           <h3
-            class="font-black mb-8 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
-            1HR BLOGPOST <br /> ($27 value):
+            1HR<br /> BLOGPOST <br /> ($27 value):
           </h3>
           <p>
             You get complete access to the tool that has helped 2,500+ creators
@@ -125,7 +125,7 @@ import { enhance } from "$app/forms";
         </div>
         <div>
           <h3
-            class="font-black mb-8 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
             LIGHTNING WRITING<br /> ($37 value):
           </h3>
@@ -135,7 +135,7 @@ import { enhance } from "$app/forms";
         </div>
         <div>
           <h3
-            class="font-black mb-8 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
             CONTENT EVERYWHERE<br /> ($197 value):
           </h3>
@@ -145,7 +145,7 @@ import { enhance } from "$app/forms";
           </p>
         </div>
       </div>
-      <div class="space-y-12">
+      <div class="space-y-12 mt-12 md:mt-8">
         <h2 class="font-black text-4xl text-center">
           And oh yeah, I'm including my $3,997 high-ticket course on funnels.
         </h2>
@@ -168,7 +168,7 @@ import { enhance } from "$app/forms";
       </div>
     </div>
   </div>
-  <div class="w-1/4 mx-auto">
+  <div class="w-11/12 md:w-1/4 mx-auto">
     <div class="flex justify-center">
       <img src={liz_1} alt="liz he's nuts" />
     </div>
