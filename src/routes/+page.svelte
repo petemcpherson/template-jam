@@ -1,6 +1,7 @@
 <script>
 import liz_1 from "$lib/assets/images/liz_1.gif";
 import bmf from "$lib/assets/images/bmf.png";
+import { enhance } from "$app/forms";
 </script>
 
 <div class="bg-black">
@@ -62,22 +63,45 @@ import bmf from "$lib/assets/images/bmf.png";
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
-      <form class="flex flex-col gap-4">
-        <div class="form-control w-full">
+      <!-- waitlist form -->
+      <div class="my-2">
+        <form
+          action="https://doyouevenblog.com/sendy/subscribe"
+          method="POST"
+          accept-charset="utf-8"
+          class="flex flex-col gap-4"
+        >
           <label class="label" for="email">
             <span class="label-text">Email</span>
           </label>
-          <input type="email" id="email" class="input input-bordered w-full" />
-        </div>
-        <button type="submit" class="btn btn-primary">Join Waitlist</button>
-      </form>
+          <input
+            class="input input-bordered w-full"
+            type="email"
+            name="email"
+            id="email"
+          /><br />
+          <div style="display:none;">
+            <label for="hp">HP</label><br />
+            <input type="text" name="hp" id="hp" />
+          </div>
+          <input type="hidden" name="list" value="b7GN1RUsk8wQLrAyzfHuMg" />
+          <input type="hidden" name="subform" value="yes" />
+          <input
+            class="btn btn-primary"
+            type="submit"
+            name="submit"
+            id="submit"
+          />
+        </form>
+      </div>
+      <!-- embed buy from Thrivecart -->
     </div>
   </div>
 
   <!-- but wait there's more -->
   <div class="w-1/2 mx-auto text-center pt-4 md:pt-32">
     <h2
-      class="text-2xl md:text-4xl md:text-7xl font-black bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+      class="text-2xl md:text-7xl font-black bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
     >
       BUT WAIT, THERE'S MORE!!
     </h2>

@@ -1,8 +1,8 @@
 <script>
-    /** @type {import('./$types').LayoutData} */
-    import "../app.css";
+/** @type {import('./$types').LayoutData} */
+import "../app.css";
 
-    export let data;
+// export let data;
 </script>
 
 <slot />
