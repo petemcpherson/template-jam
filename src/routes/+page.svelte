@@ -63,7 +63,7 @@ import { enhance } from "$app/forms";
     <div>
       <!-- waitlist form -->
 
-      <p class="text-xl">
+      <!-- <p class="text-xl">
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
@@ -96,9 +96,9 @@ import { enhance } from "$app/forms";
             id="submit"
           />
         </form>
-      </div>
+      </div> -->
       <!-- BUY BUTTON to Thrivecart -->
-      <!-- <div>
+      <div>
         <h2 class="text-2xl font-black text-center">
           Buy Template Jam with the world's largest buy button 👇
         </h2>
@@ -112,7 +112,7 @@ import { enhance } from "$app/forms";
             </div></a
           >
         </div>
-      </div> -->
+      </div>
     </div>
   </div>
 
