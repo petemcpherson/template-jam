@@ -63,7 +63,7 @@ import { enhance } from "$app/forms";
     <div>
       <!-- waitlist form -->
 
-      <!-- <p>
+      <p class="text-xl">
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
@@ -96,25 +96,23 @@ import { enhance } from "$app/forms";
             id="submit"
           />
         </form>
-      </div> -->
-      <!-- embed buy from Thrivecart -->
-      <div>
-        <h2 class="text-2xl font-black text-center">
-          Buy Template Jam here 👇
-        </h2>
-        <div
-          data-thrivecart-account="dyeb"
-          data-thrivecart-tpl="v2"
-          data-thrivecart-product="60"
-          class="thrivecart-embeddable"
-          data-thrivecart-embeddable="tc-dyeb-60-BCNDYL"
-        ></div>
-        <script
-          async
-          src="//tinder.thrivecart.com/embed/v1/thrivecart.js"
-          id="tc-dyeb-60-BCNDYL"
-        ></script>
       </div>
+      <!-- BUY BUTTON to Thrivecart -->
+      <!-- <div>
+        <h2 class="text-2xl font-black text-center">
+          Buy Template Jam with the world's largest buy button 👇
+        </h2>
+
+        <div class="text-center w-full my-12">
+          <a href="https://shop.doyouevenblog.com/template-jam/" class=""
+            ><div
+              class="bg-primary p-4 rounded-lg text-primary-content h-12 md:h-36 flex items-center justify-center shadow-lg"
+            >
+              <span class="font-black text-2xl">Buy Template Jam</span>
+            </div></a
+          >
+        </div>
+      </div> -->
     </div>
   </div>
 
