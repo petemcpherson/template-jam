@@ -103,10 +103,23 @@ import { enhance } from "$app/forms";
           Buy Template Jam with the world's largest buy button 👇
         </h2>
 
-        <div class="text-center w-full my-12">
+        <!-- live button -->
+        <!-- <div class="text-center w-full my-12">
           <a href="https://shop.doyouevenblog.com/template-jam/" class=""
             ><div
-              class="bg-primary p-4 rounded-lg text-primary-content h-12 md:h-36 flex items-center justify-center shadow-lg"
+              class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
+            >
+              <span class="font-black text-2xl">Buy Template Jam</span>
+            </div></a
+          >
+        </div> -->
+
+        <!-- tooltip button -->
+
+        <div class="text-center w-full my-12">
+          <a href="/soon" class=""
+            ><div
+              class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
             >
               <span class="font-black text-2xl">Buy Template Jam</span>
             </div></a
