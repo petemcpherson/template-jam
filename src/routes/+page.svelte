@@ -1,5 +1,6 @@
 <script>
 import liz_1 from "$lib/assets/images/liz_1.gif";
+import tai from "$lib/assets/images/tai.png";
 import bmf from "$lib/assets/images/bmf.png";
 import { enhance } from "$app/forms";
 </script>
@@ -59,11 +60,11 @@ import { enhance } from "$app/forms";
     </div>
     <!-- col 2 -->
     <div>
+      <!-- waitlist form -->
       <p>
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
-      <!-- waitlist form -->
       <div class="my-2">
         <form
           action="https://doyouevenblog.com/sendy/subscribe"
@@ -72,7 +73,7 @@ import { enhance } from "$app/forms";
           class="flex flex-col gap-4"
         >
           <label class="label" for="email">
-            <span class="label-text">Email</span>
+            <span class="label-text text-xl">Email 👇</span>
           </label>
           <input
             class="input input-bordered w-full"
@@ -95,6 +96,23 @@ import { enhance } from "$app/forms";
         </form>
       </div>
       <!-- embed buy from Thrivecart -->
+      <!-- <div>
+        <h2 class="text-2xl font-black text-center">
+          Buy Template Jam here 👇
+        </h2>
+        <div
+          data-thrivecart-account="dyeb"
+          data-thrivecart-tpl="v2"
+          data-thrivecart-product="60"
+          class="thrivecart-embeddable"
+          data-thrivecart-embeddable="tc-dyeb-60-BCNDYL"
+        ></div>
+        <script
+          async
+          src="//tinder.thrivecart.com/embed/v1/thrivecart.js"
+          id="tc-dyeb-60-BCNDYL"
+        ></script>
+      </div> -->
     </div>
   </div>
 
@@ -103,16 +121,20 @@ import { enhance } from "$app/forms";
     <h2
       class="text-2xl md:text-7xl font-black bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
     >
-      BUT WAIT, THERE'S MORE!!
+      BUT WAIT.
     </h2>
-    <p class="text-xs mt-4">I've always wanted to say that...</p>
-    <h2 class="font-black text-xl md:text-4xl mt-4">
-      I'm also including a few bonuses, just for Liz's audience.
+    <h2 class="font-black text-xl md:text-4xl mt-4 md:my-12">
+      We got enough bonuses to make Tai Lopez blush.
     </h2>
+
+    <div class="flex justify-center my-4">
+      <img src={tai} alt="tai lopez" />
+    </div>
+
     <div class="my-12">
       <!-- features -->
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-24">
-        <div>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-8 mt-4 md:mt-24">
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
           <h3
             class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
@@ -123,7 +145,7 @@ import { enhance } from "$app/forms";
             create content FASTER
           </p>
         </div>
-        <div>
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
           <h3
             class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
@@ -133,23 +155,56 @@ import { enhance } from "$app/forms";
             A mini-training where you'learn my 9-step system for creaune content
           </p>
         </div>
-        <div>
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
+          <h3
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+          >
+            AI FOR<br /> BLOGGERS<br /> ($149 value):
+          </h3>
+          <p>Get my AI blogging workflow and PUMP UP THE CONTENT.</p>
+        </div>
+      </div>
+      <!-- features 2 -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4 md:mt-8">
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
+          <h3
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+          >
+            1HR<br /> PODCAST <br /> ($27 value):
+          </h3>
+          <p>
+            Producing a podcast doesn't have to be hella hard or take hella
+            time.
+          </p>
+        </div>
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
+          <h3
+            class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
+          >
+            10-MIN<br /> OUTLINE <br /> ($19 value):
+          </h3>
+          <p>Outline content in a few mins. Great for SEO!</p>
+        </div>
+        <div class="outline outline-2 outline-primary p-4 rounded-lg">
           <h3
             class="font-black mb-2 md:mb-4 text-2xl bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block"
           >
             CONTENT EVERYWHERE<br /> ($197 value):
           </h3>
           <p>
-            What about after you hit publish? You' get my full course on content
-            PROMOTION & RE-PURPOSING. Get more eyeballs with less work!
+            My full course on content PROMOTION & RE-PURPOSING. Get more
+            eyeballs with less work!
           </p>
         </div>
       </div>
-      <div class="space-y-12 mt-12 md:mt-8">
+      <div class="space-y-12 mt-8 md:mt-24">
         <h2 class="font-black text-4xl text-center">
           And oh yeah, I'm including my $3,997 high-ticket course on funnels.
         </h2>
-        <img class="w-1/2 mx-auto" src={bmf} alt="bmf" />
+        <div class="w-11/12 md:w-1/2 mx-auto my-4">
+          <img src={bmf} alt="bmf" />
+        </div>
+        <!-- paragraphs -->
         <div class="text-xl text-left space-y-8">
           <p>
             B.M.F. <span class="italic">(Blog Monetization Funnels)</span> hasn't
@@ -165,15 +220,32 @@ import { enhance } from "$app/forms";
             >
           </p>
         </div>
+        <div class="flex justify-center">
+          <img src={liz_1} alt="liz he's nuts" />
+        </div>
+        <!-- paragraphs -->
+        <div class="text-xl text-left space-y-8">
+          <p>Nah I'm really nooooooooaaahhh ok maybe a little.</p>
+          <p>
+            Truth be told, I'm an indie hacker who builds Saas companies these
+            days, but I still have these timeless courses & templates which I
+            just don't promote anymore.
+          </p>
+          <p>
+            They're still hella valueable, and I'd like for you to have them
+            (but also put food on mine and Liz's table).
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-  <div class="w-11/12 md:w-1/4 mx-auto">
-    <div class="flex justify-center">
-      <img src={liz_1} alt="liz he's nuts" />
-    </div>
-    <div class="my-12">
-      <p>Nah Liz, I'm not. I'm just...well maybe a little.</p>
+
+    <!-- CTA -->
+    <div class="w-11/12 md:w-1/2 mx-auto text-center py-12 md:py-24">
+      <h2 class="text-4xl font-black">Whatcha waiting for?</h2>
+      <p class="text-xl my-4">
+        Use the form above to get access to Template Jam, allllll the bonuses &
+        courses, all within about 60 seconds.
+      </p>
     </div>
   </div>
 </div>
