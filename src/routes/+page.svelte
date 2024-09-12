@@ -114,7 +114,7 @@ import { enhance } from "$app/forms";
           >
         </div> -->
 
-        <!-- tooltip button -->
+        <!-- TEMP button -->
 
         <div class="text-center w-full my-12">
           <a href="/soon" class=""
@@ -253,12 +253,26 @@ import { enhance } from "$app/forms";
     </div>
 
     <!-- CTA -->
-    <div class="w-11/12 md:w-1/2 mx-auto text-center py-12 md:py-24">
+    <div class="w-11/12 md:w-3/4 mx-auto text-center py-12 md:py-24">
       <h2 class="text-4xl font-black">Whatcha waiting for?</h2>
       <p class="text-xl my-4">
-        Use the form above to get access to Template Jam, allllll the bonuses &
-        courses, all within about 60 seconds.
+        Use <span class="font-bold text-accent"
+          >the world's largest buy button</span
+        > below to get access to Template Jam, allllll the bonuses & courses, all
+        within about 60 seconds.
       </p>
     </div>
   </div>
+  <!-- TEMP button -->
+
+  <div class="w-11/12 mx-auto text-center mb-12 md:mb-24">
+    <a href="/soon"
+      ><div
+        class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-48 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
+      >
+        <span class="font-black text-2xl">Buy Template Jam</span>
+      </div></a
+    >
+  </div>
+  <div class="h-24"></div>
 </div>
