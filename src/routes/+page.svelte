@@ -59,9 +59,11 @@ import { enhance } from "$app/forms";
       </ul>
     </div>
     <!-- col 2 -->
+
     <div>
       <!-- waitlist form -->
-      <p>
+
+      <!-- <p>
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
@@ -94,9 +96,9 @@ import { enhance } from "$app/forms";
             id="submit"
           />
         </form>
-      </div>
+      </div> -->
       <!-- embed buy from Thrivecart -->
-      <!-- <div>
+      <div>
         <h2 class="text-2xl font-black text-center">
           Buy Template Jam here 👇
         </h2>
@@ -112,7 +114,7 @@ import { enhance } from "$app/forms";
           src="//tinder.thrivecart.com/embed/v1/thrivecart.js"
           id="tc-dyeb-60-BCNDYL"
         ></script>
-      </div> -->
+      </div>
     </div>
   </div>
 
