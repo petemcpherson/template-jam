@@ -3,6 +3,8 @@ import liz_1 from "$lib/assets/images/liz_1.gif";
 import tai from "$lib/assets/images/tai.png";
 import bmf from "$lib/assets/images/bmf.png";
 import { enhance } from "$app/forms";
+
+const url = "https://dyeb.thrivecart.com/template-jam";
 </script>
 
 <div class="bg-black">
@@ -105,7 +107,7 @@ import { enhance } from "$app/forms";
 
         <!-- live button -->
         <div class="text-center w-full my-12">
-          <a href="https://shop.doyouevenblog.com/template-jam/" class=""
+          <a href={url} class=""
             ><div
               class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
             >
@@ -266,7 +268,7 @@ import { enhance } from "$app/forms";
 
   <!-- live button -->
   <div class="text-center w-full my-12">
-    <a href="https://shop.doyouevenblog.com/template-jam/" class=""
+    <a href={url} class=""
       ><div
         class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
       >
