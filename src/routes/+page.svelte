@@ -104,7 +104,7 @@ import { enhance } from "$app/forms";
         </h2>
 
         <!-- live button -->
-        <!-- <div class="text-center w-full my-12">
+        <div class="text-center w-full my-12">
           <a href="https://shop.doyouevenblog.com/template-jam/" class=""
             ><div
               class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
@@ -112,11 +112,11 @@ import { enhance } from "$app/forms";
               <span class="font-black text-2xl">Buy Template Jam</span>
             </div></a
           >
-        </div> -->
+        </div>
 
         <!-- TEMP button -->
 
-        <div class="text-center w-full my-12">
+        <!-- <div class="text-center w-full my-12">
           <a href="/soon" class=""
             ><div
               class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
@@ -124,7 +124,7 @@ import { enhance } from "$app/forms";
               <span class="font-black text-2xl">Buy Template Jam</span>
             </div></a
           >
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
@@ -263,9 +263,20 @@ import { enhance } from "$app/forms";
       </p>
     </div>
   </div>
+
+  <!-- live button -->
+  <div class="text-center w-full my-12">
+    <a href="https://shop.doyouevenblog.com/template-jam/" class=""
+      ><div
+        class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
+      >
+        <span class="font-black text-2xl">Buy Template Jam</span>
+      </div></a
+    >
+  </div>
   <!-- TEMP button -->
 
-  <div class="w-11/12 mx-auto text-center mb-12 md:mb-24">
+  <!-- <div class="w-11/12 mx-auto text-center mb-12 md:mb-24">
     <a href="/soon"
       ><div
         class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-48 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
@@ -273,6 +284,6 @@ import { enhance } from "$app/forms";
         <span class="font-black text-2xl">Buy Template Jam</span>
       </div></a
     >
-  </div>
+  </div> -->
   <div class="h-24"></div>
 </div>
