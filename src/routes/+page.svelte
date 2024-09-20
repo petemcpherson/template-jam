@@ -131,6 +131,27 @@ const url = "https://dyeb.thrivecart.com/template-jam";
     </div>
   </div>
 
+  <!-- tour video -->
+  <div class="w-11/12 md:w-1/2 mx-auto text-center pt-24 md:pt-32">
+    <p class="text-xl text-primary text-center mb-4 md:mb-12">
+      👇 Watch a quick tour of what's inside Template Jam 👇
+    </p>
+    <div
+      style="position: relative; padding-bottom: 64.98194945848375%; height: 0;"
+    >
+      <iframe
+        src="https://www.loom.com/embed/f1381d389730483bb2046bf2770ecbbf?sid=bd1b368b-790b-4f7b-aa5a-496bef5d93b3"
+        frameborder="0"
+        title="Template Jam Tour"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+        style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        loading="lazy"
+      ></iframe>
+    </div>
+  </div>
+
   <!-- but wait there's more -->
   <div class="w-11/12 md:w-1/2 mx-auto text-center pt-24 md:pt-32">
     <h2
