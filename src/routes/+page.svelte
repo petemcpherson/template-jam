@@ -7,6 +7,20 @@ import { enhance } from "$app/forms";
 const url = "https://dyeb.thrivecart.com/template-jam";
 </script>
 
+<div
+  class="md:h-24 p-8 md:p-36 flex items-center justify-center bg-primary text-primary-content text-center"
+>
+  <!-- <button class="btn btn-ghost text-xl">daisyUI</button> -->
+  <div class="md:mx-24">
+    <p class="text-xl font-black mb-4">Howdy! Pete here 👋.</p>
+    <p>
+      Due to a few errors (both human errors from <i>yours truly</i>, as well as
+      THRIVECART ERRORS ARGH...I'm leaving Template Jam open until Friday at
+      11:59pm EST. (9.27.24))
+    </p>
+  </div>
+</div>
+
 <div class="bg-black">
   <!-- top of page -->
   <div class="w-3/4 mx-auto text-center py-12 md:py-32 space-y-10">
