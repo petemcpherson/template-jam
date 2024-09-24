@@ -65,7 +65,7 @@ const url = "https://dyeb.thrivecart.com/template-jam";
     <div>
       <!-- waitlist form -->
 
-      <p class="text-xl">
+      <!-- <p class="text-xl">
         Template Jam is currently closed. Join the waitlist below for unlimited
         happiness (ok not really).
       </p>
@@ -98,15 +98,14 @@ const url = "https://dyeb.thrivecart.com/template-jam";
             id="submit"
           />
         </form>
-      </div>
+      </div> -->
       <!-- BUY BUTTON to Thrivecart -->
       <div>
-        <!-- <h2 class="text-2xl font-black text-center">
+        <h2 class="text-2xl font-black text-center">
           Use the World's Largest Buy Button 👇
-        </h2> -->
+        </h2>
 
-        <!-- live button -->
-        <!-- <div class="text-center w-full my-12">
+        <div class="text-center w-full my-12">
           <a href={url} class=""
             ><div
               class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
@@ -114,7 +113,7 @@ const url = "https://dyeb.thrivecart.com/template-jam";
               <span class="font-black text-2xl">Buy Template Jam</span>
             </div></a
           >
-        </div> -->
+        </div>
 
         <!-- TEMP button -->
 
@@ -276,7 +275,7 @@ const url = "https://dyeb.thrivecart.com/template-jam";
     </div>
 
     <!-- CTA -->
-    <!-- <div class="w-11/12 md:w-3/4 mx-auto text-center py-12 md:py-24">
+    <div class="w-11/12 md:w-3/4 mx-auto text-center py-12 md:py-24">
       <h2 class="text-4xl font-black">Whatcha waiting for?</h2>
       <p class="text-xl my-4">
         Use <span class="font-bold text-accent"
@@ -284,11 +283,11 @@ const url = "https://dyeb.thrivecart.com/template-jam";
         > below to get access to Template Jam, allllll the bonuses & courses, all
         within about 60 seconds.
       </p>
-    </div> -->
+    </div>
   </div>
 
   <!-- live button -->
-  <!-- <div class="text-center w-full my-12">
+  <div class="text-center w-full my-12">
     <a href={url} class=""
       ><div
         class="bg-accent p-4 rounded-lg text-primary-content h-32 md:h-36 flex items-center justify-center shadow-2xl shadow-accent/50 hover:shadow-accent/75"
@@ -296,7 +295,7 @@ const url = "https://dyeb.thrivecart.com/template-jam";
         <span class="font-black text-2xl">Buy Template Jam</span>
       </div></a
     >
-  </div> -->
+  </div>
   <!-- TEMP button -->
 
   <!-- <div class="w-11/12 mx-auto text-center mb-12 md:mb-24">
