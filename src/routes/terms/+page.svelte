@@ -229,6 +229,45 @@ const email = "pete@doyouevenblog.com";
   </section>
 
   <section>
+    <h2 class="my-4 text-3xl">Email Communications and Marketing</h2>
+    <p class="mb-3">
+      By providing your email address to {businessName}, you expressly consent
+      to receive our email newsletter and marketing communications. These
+      communications may include, but are not limited to:
+    </p>
+    <ul class="list-disc ml-6 mb-3">
+      <li>Product updates and announcements</li>
+      <li>Template recommendations and usage tips</li>
+      <li>Special offers and promotions</li>
+      <li>Educational content related to our services</li>
+      <li>Company news and updates</li>
+    </ul>
+
+    <h3 class="text-2xl mt-6 mb-3">Frequency and Opt-Out Rights:</h3>
+    <p class="mb-3">We typically send 2-4 emails per month</p>
+    <p class="mb-3">You can unsubscribe at any time by:</p>
+    <ul class="list-disc ml-6 mb-3">
+      <li>
+        Clicking the "Unsubscribe" link found at the bottom of any email we send
+      </li>
+      <li>Emailing {email} with "UNSUBSCRIBE" in the subject line</li>
+      <li>Writing to our mailing address requesting removal</li>
+    </ul>
+
+    <p class="mb-3">
+      Your email address and associated data will be handled in accordance with
+      our Privacy Policy. We will never sell or share your email address with
+      third parties for their marketing purposes.
+    </p>
+    <p class="mb-3">
+      By continuing to use {businessName} and providing your email address, you acknowledge
+      that you have read and understood this consent to receive marketing communications.
+      This consent remains valid until you opt out through one of the methods described
+      above.
+    </p>
+  </section>
+
+  <section>
     <h2 class="my-4 text-3xl">User Data</h2>
     <p class="mb-3">
       {businessName} will maintain certain data that you transmit to the platform
