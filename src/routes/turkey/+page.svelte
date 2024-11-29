@@ -238,7 +238,7 @@
 				<h2
 					class="text-2xl md:text-7xl font-black bg-gradient-to-r from-primary to-accent text-transparent bg-clip-text inline-block my-4 md:my-8"
 				>
-					BUT WAIT. <br /><br />YES, AGAIN. MIGHT AS WELL HAVE A SEAT, ACTUALLY.
+					BUT WAIT. <br /><br />YES, AGAIN.<br /><br /> MIGHT AS WELL HAVE A SEAT, ACTUALLY.
 				</h2>
 				<h2 class="font-black text-4xl text-center">
 					I'm including FREE access to my 3 Saas products.
@@ -256,7 +256,7 @@
 							rel="noopener noreferrer"
 							class="text-primary underline">TopicalMap.ai</a
 						>
-						- 1 Month Free
+						- Two (2) Months Free(!)
 					</h3>
 
 					<p class="mb-4 md:mb-8 text-lg">
@@ -276,7 +276,7 @@
 							rel="noopener noreferrer"
 							class="text-primary underline">AffTracker.co</a
 						>
-						- FREE LIFETIME ACCESS(!)
+						- Two (2) Months Free(!)
 					</h3>
 
 					<p class="mb-4 md:mb-8 text-lg">
@@ -296,7 +296,7 @@
 							rel="noopener noreferrer"
 							class="text-primary underline">FABB.ai</a
 						>
-						- 1 Month Free
+						- Two (2) Months Free(!)
 					</h3>
 
 					<p class="mb-4 md:mb-8 text-lg">
