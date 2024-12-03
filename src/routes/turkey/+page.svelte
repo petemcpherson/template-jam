@@ -1,4 +1,6 @@
 <script>
+	import { browser } from '$app/environment';
+	import { goto } from '$app/navigation';
 	import liz_1 from '$lib/assets/images/liz_1.gif';
 	import tai from '$lib/assets/images/tai.png';
 	import bmf from '$lib/assets/images/bmf.png';
@@ -6,9 +8,23 @@
 	import aff_tracker_logo_dark from '$lib/assets/images/aff_tracker_logo_dark.png';
 	import fabb_logo_dark from '$lib/assets/images/fabb_logo_dark.png';
 
-	// import { enhance } from "$app/forms";
-
 	const url = 'https://dyeb.thrivecart.com/petes-private-vault-bf2024/';
+
+	// Expiration check
+	if (browser) {
+		const expirationDate = new Date('2024-12-02T23:59:00-05:00'); // Test expiration at 10:05 PM ET
+		const now = new Date();
+		// console.log(
+		// 	'Expiration date:',
+		// 	expirationDate.toLocaleString('en-US', { timeZone: 'America/New_York' })
+		// );
+		// console.log('Current time:', now.toLocaleString('en-US', { timeZone: 'America/New_York' }));
+		// console.log('Time comparison result:', now >= expirationDate);
+
+		if (now >= expirationDate) {
+			goto('/turkey/byebye'); // Redirect to thanks page after expiration
+		}
+	}
 </script>
 
 <!-- <div
